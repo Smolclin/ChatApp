@@ -44,7 +44,6 @@
 
 # Git cloning
 git clone https://github.com/Smolclin/ChatApp.git
-cd ChatApp
 
 # Set Up Environment Variables: Create a .env file in the root directory and add:
 ** npm install
