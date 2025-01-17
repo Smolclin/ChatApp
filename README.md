@@ -42,7 +42,7 @@
 *   Stream API account (for chat functionality)
 *   Twilio account (optional, for SMS notifications)
 
-# Installation
+# Git cloning
 git clone https://github.com/Smolclin/ChatApp.git
 cd ChatApp
 
