@@ -43,7 +43,7 @@
 *   Twilio account (optional, for SMS notifications)
 
 # Installation
-git clone https://github.com/your-username/ChatApp.git
+git clone https://github.com/Smolclin/ChatApp.git
 cd ChatApp
 
 # Set Up Environment Variables: Create a .env file in the root directory and add:
