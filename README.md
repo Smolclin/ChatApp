@@ -79,7 +79,7 @@ git clone https://github.com/Smolclin/ChatApp.git
   ![Screenshot from 2025-01-17 04-46-34](https://github.com/user-attachments/assets/09d182e1-9929-430a-89cf-57317cbc1869)
 
   
-# Contact
+### Contact
 
 ** For questions or support, please contact:
 
