@@ -144,13 +144,15 @@ const MessagePage = () => {
   }
 
   // Download handler function
-  const handleDownload = (url, type) => {
+  const handleDownload = async (url, type) => {
   try {
     const response = await fetch(url, { mode: 'cors' });
     const blob = await response.blob();
     const blobUrl = window.URL.createObjectURL(new Blob([blob]));
+
     const a = document.createElement("a");
-    a.href = url;
+    a.href = blobUrl;
+    a.download = `download.${type}`;
     a.setAttribute("download", type === 'image' ? 'downloaded_image.jpg' : type === 'video' ? 'downloaded_video.mp4' : 'downloaded_file');
     a.setAttribute("target", "_blank");
     document.body.appendChild(a);
