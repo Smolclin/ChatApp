@@ -75,7 +75,7 @@ git clone https://github.com/Smolclin/ChatApp.git
 *   Node.js
 *   Twilio
 
-  # App Screenshot
+  # App logo
   ![Full Stack Chat App](https://github.com/user-attachments/assets/0d895b30-ba71-4ce1-90ca-e13556ae0dcd)
 
 
